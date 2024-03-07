@@ -48,5 +48,12 @@ void input() {
     }
     cout << "jumlah pass = " << n - 1 << endl;
     cout << endl;
+}
 
-
+int main()
+{
+    input();
+    bubbleSortArray();
+    display();
+    system("pause");
+}
